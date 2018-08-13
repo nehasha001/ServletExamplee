@@ -21,6 +21,9 @@ public class WelcomeServlet implements Servlet {
         printWriter.print("<h1> Welcome to server side programming. </h1>");
         printWriter.print("</body></html>");
         ServletConfig config = getServletConfig();
+        System.out.println("Hi Kudos");
+        System.out.println("Okay");
+
     }
 
     @Override
